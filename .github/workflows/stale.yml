@@ -1,7 +1,6 @@
 name: "Mark and close stale PRs in the repo"
 on:
-  schedule:
-    - cron: "00 14 * * *" # runs daily at 14:00 https://crontab.guru/#00_14_*_*_*
+  workflow_dispatch:
 
 jobs:
   stale:
